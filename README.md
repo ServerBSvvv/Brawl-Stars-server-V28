@@ -1,7 +1,1 @@
-<h1 align="center">Welcome to Dudnik-Brawl 👋</h1>
-
-Open source Brawl Stars server emulator for version 28 of the game!
-
-Dudnik Server lol
-
-который я делал 228 месяцев назад кринж
+<h1 align="center">Добро пожаловать в приватный сервер 28 версии по бс с открытым исходным кодом! 👋</h1>
