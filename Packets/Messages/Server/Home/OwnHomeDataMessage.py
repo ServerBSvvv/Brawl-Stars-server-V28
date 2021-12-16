@@ -53,10 +53,10 @@ class OwnHomeDataMessage(Writer):
             self.writeScId(29, skin_id)
     
 
-        self.writeVint(999)  # array
-        for x in range(999):
+        self.writeVint(0)  # ???
+        for x in range(0):
             pass
-# 20
+
         self.writeVint(999)
         self.writeVint(999)
         self.writeVint(0)
@@ -133,7 +133,7 @@ class OwnHomeDataMessage(Writer):
         self.writeScId(16, self.player.brawler_id)
 
         self.writeString("RU")
-        self.writeString("Romashka")
+        self.writeString("Hallowen Summer")
 
         self.writeVint(0)  # array
         for x in range(0):
@@ -187,6 +187,7 @@ class OwnHomeDataMessage(Writer):
             self.writeVint(item['GamemodeID']) # Gamemode TID
             self.writeVint(1)
             self.writeVint(1)
+
         # Emotes Array
         self.writeBoolean(True)
         if True:
